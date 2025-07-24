@@ -1,0 +1,98 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+.container{
+    background-image: url(img/pexels-cerenvisuals-33053158.jpg) ;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(22, 112, 214,0.4);
+}
+
+.container .navbar .logo{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+font-size: 30px;
+font-family: sans-serif;
+color: #f3f3f3;
+margin-left: 40px;
+text-align: center;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+display: inline-block;
+margin: 0 8px;
+line-height: 80px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: .5sn;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background: #ff6e00;
+   border-radius: 10px;   
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width:900px ;
+    text-align: center;
+}
+.center h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    width:885px ;
+    margin-top: 20px;
+    text-align: center; 
+}
+.center .butons{
+   text-align: center;
+}
+
+.butons button{
+    height: 45px;
+    width: 170px;
+    font-size: 18px;
+    font-weight:bold ;
+    color: #ffb3b3;
+    background: rgb(207, 96, 88);
+    border: solid 1px red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5sn;
+    margin-top: 60px;
+}
+.butons button:hover{
+    background: #fff;
+
+}
